@@ -1,4 +1,5 @@
 const fetchJoke = document.getElementById('fetchJoke')
+const deleteAll = document.getElementById('deleteAll')
 const jokeList = document.getElementById('jokeList')
 //localStorage.clear()
 
@@ -40,3 +41,9 @@ function removeJoke(listItemID) {
     jokeList.removeChild(document.getElementById(listItemID))
     localStorage.removeItem(listItemID)
 }
+
+/* BONUS */
+deleteAll.addEventListener('click', () => {
+    jokeList.innerHTML = ''
+    localStorage.clear()
+})
