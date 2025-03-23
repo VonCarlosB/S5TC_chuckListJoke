@@ -27,5 +27,26 @@ button:hover {
   background-color: #0056b3;
 }
 
+.delete{
+  background-color: red;
+  padding: 5px 8px;
+}
 
+.delete:hover{
+  background-color: darkred;
+}
 
+ul{
+  list-style: none;
+  width: 50%;
+  padding-left: 0;
+}
+
+li{
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 10px;
+}
